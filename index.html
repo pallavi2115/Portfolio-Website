@@ -1,0 +1,165 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel = "stylesheet" href ="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<hr/>
+<body>
+<header class ="header_section">
+    <div class="container">
+        <nav class = "navbar navbar-expand-lg custom-navcontainer">
+            <div class="collapse navbar-collapse" id = "navbarSupportedContent">
+                <ul class = "navbar-nav max-auto">
+                    <li class = "nav-item active">
+                        <a class = "nav-link" href = "index.html">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#page1">Skills</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#page2">Projects</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#page3">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div id = "main">
+    <div id = "page">
+        <img src = "./Photo.jpg" style = "padding: 150px; 
+        border-radius: 50%;" alt = " "/>
+
+        <div id = "text">
+            <h2>Hello!</h2>
+            <h1>I'm Pallavi</h1>
+            <h4>
+                I'm a passionate Web Developer with a keen eye for design and 
+                a flair for creating seamless, user-friendly digital experiences with 
+                a strong foundation in Front-end technologies, specialize in turning ideas 
+                into beautifully crafted websites and web applications.
+            </h4>
+            <div id = "buttonns">
+                <button id = "b2">
+                    <a href = "./Resume/index.html">Resume</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------------------------------------------------------------->
+
+
+    <div id = "page1">
+        <div id = "right">
+            <div id = "text1">
+                <h1>My Skills</h1>
+                <h4>
+                    As a dedicated web developer, I've honed a versatile sill set 
+                    that empowers me to bring creative visions to life in the digital realm, 
+                    My proficiency spans Front-end technologies, including HTML, CSS, JavaScript
+                    and a variety of popular frameworks and libraries.
+                </h4>
+            </div>
+        </div>
+        <div id = "left">
+            <div class = "box">
+                <h1>Competative Programming</h1>
+                <p> I regularly do Competative coding since I love problem solving.
+                </p>
+            </div>
+            <div class = "box">
+                <h1>Design and Development</h1>
+                <p>
+                   I have created projects. Over time I have gained 
+                   a lot of experience in designing and developing web applications.  
+                </p>
+            </div>
+            <div class = "box">
+                <h1>Machine Learning</h1>
+                <p>I am also a Machine Learning enthusiast.</p>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------------------------------------------------------------------------->
+
+    <div id = "page2">
+        <div id = "text4">
+            <h1>My Projects</h1>
+        </div>
+        <div id = "project">
+            <div class = "projects p1">
+            <div id = "text3">
+                <h1>Twitter Sentiment Analysis</h1>
+            </div>
+            <div id = "image">
+                <a href = "./Twitter Sentiment/Twittersentiment.ipynb">
+                    <img src = "Twitter.png" alt = "This project helps in analyzing 
+                    whether a tweet is Positive, Negative or Neutral"/>
+                </a>
+            </div>
+            </div>
+            <div class = "projects p2">
+                <div id = "text3">
+                    <h1>Netflix Clone</h1>
+                </div>
+                <div id = "image">
+                    <a href = "./Netflix Clone/index.html">
+                        <img src = "Netflix.jpeg" alt = "It works similarly as Netflix Application"/>
+                    </a>
+                </div>
+                </div>
+                <div class = "projects p3">
+                    <div id = "text3">
+                        <h1>Video Conferencing</h1>
+                    </div>
+                    <div id = "image">
+                        <a href = "./Video Conferencing Project/index.html">
+                            <img src = "Video conferencing.jpeg" alt = " "/>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+<!--------------------------------------------------------------------------------------------------------->
+    <section class = "end">
+        <div id = "page3" class = "contact-me">
+            <br/><br/>
+            <h2>Get In Touch</h2>
+            <br/>
+
+            <h2 class = "collab">Lets Collab and do a Project</h2>
+            <br/>
+
+            <p>Contact Me</p>
+            <br/>
+            <a class = "btn" href = "pallavisingh2167@gmail.com">
+                <img src = "./Gmail.png" width="40px" height="40px"/>
+            </a>
+            <a class = "btn" href = "https://www.linkedin.com/in/pallavi-105581245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img src = "./Linkedin.png" width="40px" height="40px"/>
+            </a>
+            <a class = "btn" href = "https://github.com/pallavi2115">
+                <img src = "./GitHub.jpeg" width="40px" height="40px"/>
+            </a>
+        </div>
+        <div class = "bottom-container">
+            <div style = "width: 50%; margin-left: auto; margin-right: auto;">
+            <br/>
+            <p class = "copyright">@ 2023 Portfolio.</p>
+        </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
+
